@@ -69,6 +69,6 @@ model VerificationToken {
 // npx prisma migrate dev to see new schema file changes
 model BuildOrder {
     id      String @id @default(cuid())
-    matchup String
+    matchUp String
     build   String
 }

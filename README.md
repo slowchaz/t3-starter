@@ -1,9 +1,11 @@
 # Setup Steps:
 
 1. Run Docker
-2. 'docker-compose up' to run postgres server
-3. npm run dev
-4. npx prisma migrate
+2. 'docker compose up' to run postgres server
+3. npm install
+4. npm run dev
+5. npx prisma studio
+6. npx prisma migrate for schema changes
 
 
 
