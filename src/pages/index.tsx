@@ -6,18 +6,6 @@ import { trpc } from "../utils/trpc";
 
 
 const Home: NextPage = () => {
-  const createBuildMutation = trpc.builds.createBuild.useMutation();
-  const [matchUp, setMatchUp] = useState("ZvT");
-  const [build, setBuild] = useState("");
-
-  async function handleSubmitBuildOrder(e: React.FormEvent) {
-    e.preventDefault();
-    await createBuildMutation.mutateAsync({
-      matchUp,
-      build,
-    });
-  }
-
   return (
     <>
       <Head>

@@ -5,7 +5,7 @@
 3. npm install
 4. npm run dev
 5. npx prisma studio
-6. npx prisma migrate for schema changes
+6. npx prisma migrate dev for schema changes
 
 
 
