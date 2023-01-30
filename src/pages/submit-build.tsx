@@ -5,7 +5,7 @@ import { useState } from "react";
 import { trpc } from "../utils/trpc";
 
 
-const Home: NextPage = () => {
+const SubmitBuildsPage: NextPage = () => {
   const createBuildMutation = trpc.builds.createBuild.useMutation();
   const [matchUp, setMatchUp] = useState("ZvT");
   const [build, setBuildOrder] = useState("");
@@ -64,4 +64,4 @@ const Home: NextPage = () => {
   );
 };
 
-export default Home;
+export default SubmitBuildsPage;
